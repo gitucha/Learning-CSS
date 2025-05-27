@@ -1,0 +1,25 @@
+ h1 {
+    font-size: 50px;
+    color:azure;
+}
+p {
+    font-size: 30px;
+    color:brown;
+} 
+.p1 {
+    color:magenta;
+    font-style:inherit;
+    font-size: 20px;
+}
+.p2 {
+    color: azure;
+    font-style: italic;
+    font-size: 30px;
+}
+#zindua {
+    color: black;
+}
+img[class] {
+    width: 200px;
+    height: 400px;
+}
