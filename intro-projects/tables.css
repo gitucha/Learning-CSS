@@ -1,0 +1,64 @@
+/* border collapse removes whatever is there */
+.basic{
+     border-collapse:collapse ;
+     width: 100%;
+}
+.basic th , td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+.basic th{
+    background-color: #f2f2f2;
+}
+
+.tbody, .zebra {
+    width: 100%;
+    border-collapse:collapse;
+}
+
+.tbody .zebra th, td {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+ .zebra tr:nth-child(even){
+    background-color: gray;
+ }
+ .zebra tr:hover {
+    background-color: #e0f7fa;
+ }
+ .zebra th {
+    background-color: darkolivegreen;
+ }
+ .Slack{
+    background-color: rgb(150, 138, 138);
+ }
+ .Slack tr:hover{
+   background-color: rgb(196, 194, 198);
+ }
+ .Slack{
+    border-collapse: collapse;
+    width: 100%;
+ }
+ .Slack tr:nth-child(even){
+    background-color:rgb(177, 120, 76);
+ }
+ .head {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    text-emphasis: 100px;  
+ }
+ .head2 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+ }
+.Slack {
+  font-family: "Merriweather", serif;
+ font-style: italic; 
+}
+.Slack {
+    border-radius: 30px;
+}

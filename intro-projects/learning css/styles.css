@@ -1,0 +1,149 @@
+ h1 {
+    font-size: 50px;
+    color:azure;
+}
+p {
+    font-size: 30px;
+    color:brown;
+} 
+.p1 {
+    color:magenta;
+    font-style:inherit;
+    font-size: 20px;
+}
+.p2 {
+    color: azure;
+    font-style: italic;
+    font-size: 30px;
+}
+#zindua {
+    color: black;
+}
+img[class] {
+    width: 200px;
+    height: 400px;
+}
+.box {
+     background-color: blue;
+     color: white;
+     padding: 50px;
+}
+#header {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+ .mydiv h1 .mydiv p .mydiv div {
+    color: aqua;
+ }
+ button:hover {
+    background-color:blueviolet;
+    cursor: crosshair;
+ }
+ 
+
+ li:first-child {
+    color: red;
+    font-weight: 500;
+ } 
+ li:last-child {
+    color: rgb(53, 18, 129);
+    font-weight: 400;
+ }
+ .mylist1 li:nth-child(2) {
+    color: black;
+ }
+ .mylist3 li:first-child {
+    color: aquamarine;
+    font-weight: 400;
+ }
+ .mylist3 :nth-child(even) {
+    color: red;
+ }
+ input:focus {
+    border: 2px solid blue;
+    outline: none;
+    background-color: whitesmoke;
+ }
+ .form2 input:checked {
+    accent-color: green;
+ }
+ .form3 input:disabled {
+    background-color:lightgray;
+    color: darkgrey;
+    cursor: not-allowed;   
+ }
+ .box2 h2 {
+    color: blue;
+ }
+ .box3 h3 {
+    color: blueviolet;
+ }
+ .box4 h4 {
+    color: green;
+ }
+ /* .mycolors {
+    color: white;
+    background-color: black; 
+ } */
+    
+ /* Hexadecimal code */
+ .my-colors {
+    color: #f00 ;
+    background-color: #0d1b2a ;
+ }
+
+ .grd div {
+    height: 80px;
+    width: 100%;
+ }
+
+ .grd .topBottom {
+    background: linear-gradient(blue, yellow);
+ }
+ .grd .rightLeft {
+    background: linear-gradient(yellow, blue);
+ }
+ body {
+    background-image: url();
+    background-repeat: no repeat;
+    background-position: centre;
+    background-size: cover;
+ }
+ /* Fonts - style and adjust type of text useed in a webpage 
+   - font-family
+   - font-size
+   - font weight
+   - font-style
+ */
+ body{
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+h1{
+   font-size: 50px;
+   font-weight: 900;
+   font-style: italic;
+}
+/* line height is the space between above a given paragraph */
+ .p6{
+ line-height: 1;
+ font-family: monospace;
+ font-style: oblique;
+ text-align: left;
+ text-decoration:underline solid blue;
+ text-transform: uppercase;
+ text-emphasis: circle blue;
+ }
+ /* CSS box model */
+ .my-box{
+   width: 200px;
+   height: 100px;
+   padding: 20px;
+   border: 5px solid red;
+   margin: 30px;
+   background-color:gray;
+   border-radius: 10px;
+ }
