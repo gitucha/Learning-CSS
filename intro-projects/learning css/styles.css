@@ -140,7 +140,7 @@ h1{
  /* CSS box model */
  .my-box{
    width: 200px;
-   height: 100px;
+   height: 200px;
    padding: 20px;
    border: 5px solid red;
    margin: 30px;
